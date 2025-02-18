@@ -78,3 +78,9 @@ public static class TestClass
         Console.WriteLine($"Reversed: {strResult}");
     }
 }
+
+
+// TestClass.Q1_ReverseString();
+// TestClass.Q2_Palindrome("ABCB");
+// TestClass.Q3_ReverseOrderOfWords("AB CD EF 12");
+// TestClass.Q4_ReverseEchWord("AB CD EF 12");

@@ -1,13 +1,16 @@
 ﻿using ConsoleApp1;
 
-// See https://aka.ms/new-console-template for more information
-
 Console.WriteLine("Hello, World!");
 
-// TestClass.Q1_ReverseString();
-// TestClass.Q2_Palindrome("ABCB");
-// TestClass.Q3_ReverseOrderOfWords("AB CD EF 12");
-// TestClass.Q4_ReverseEchWord("AB CD EF 12");
-TestClass.Q5_CountOccurences("AA CCC EF 12");
+// var input = "5,3,2,4,1,2";
+List<int> input1 = [1 ,2 ,4 ,1 ,2];
+List<int> input2 = [3 ,10 ,1 ,1 ,1];
+
+// Result1.minimalHeaviestSetA(input.Split(",").ToList());
+var res = Result.calculatePendingOrders(input1, input2);
+
+var resStr = String.Join(',', res);
+
+Console.WriteLine($"Resule: {resStr}");
 
 Console.WriteLine("\n\n\nDONE ..........");
